@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Potracheno</string>
     <string name="start_screen_title">Мероприятия</string>
+    <string name="add_event_button_text">Добавить мероприятие</string>
 </resources>
