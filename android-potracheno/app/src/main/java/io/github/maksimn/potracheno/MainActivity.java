@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         event1.persons = 12;
         EventInfo event2 = new EventInfo();
         event2.name = "Тестовая встреча";
-        event2.date = new Date();
+        event2.date = new Date(0);
         event2.persons = 3;
 
         eventInfoList.add(event1);

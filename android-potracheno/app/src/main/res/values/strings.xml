@@ -2,4 +2,13 @@
     <string name="app_name">Potracheno</string>
     <string name="start_screen_title">Мероприятия</string>
     <string name="add_event_button_text">Добавить мероприятие</string>
+
+    <plurals name="persons">
+        <item quantity="zero">Нет участников</item>
+        <item quantity="one">%1$d участник</item>
+        <item quantity="two">%1$d участника</item>
+        <item quantity="few">%1$d участника</item>
+        <item quantity="many">%1$d участников</item>
+        <item quantity="other">%1$d участников</item>
+    </plurals>
 </resources>
