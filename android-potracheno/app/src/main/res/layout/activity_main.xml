@@ -36,7 +36,7 @@
         android:id="@+id/events_recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="60dp" />
+        android:layout_marginTop="58dp" />
 
     <Button
         android:background="@color/app_yellow"

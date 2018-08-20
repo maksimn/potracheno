@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         EventsRecyclerViewAdapter eventsRecyclerViewAdapter = new EventsRecyclerViewAdapter();
         eventsRecyclerView.setAdapter(eventsRecyclerViewAdapter);
 
+        // TODO: Выделить эти тестовые данные в отдельную службу, которую потом внедрить через Dagger
         List<EventInfo> eventInfoList = new ArrayList<>();
         EventInfo event1 = new EventInfo();
         event1.name = "Пьянка в рюмочной";
@@ -40,6 +41,3 @@ public class MainActivity extends AppCompatActivity {
         eventsRecyclerViewAdapter.notifyItemRangeChanged(0, 2);
     }
 }
-
-
-
